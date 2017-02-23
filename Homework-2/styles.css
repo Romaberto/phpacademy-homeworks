@@ -1,4 +1,4 @@
-div {
+.block1 {
   background-color: blue;
   width: 100px;
   height: 100px;
@@ -9,7 +9,7 @@ div {
   margin-right: -50px;
 }
 
-ul {
+.list {
   list-style-type: none;
   display: flex;
   flex-flow: row wrap;
@@ -17,7 +17,7 @@ ul {
   border: 3px solid green;
   padding: 20px;
 }
-li {
+.list li {
   display: block;
   overflow: hidden;
   background-color: red;
@@ -31,12 +31,14 @@ img {
 header {
   display: flex;
   height: 800px;
-  background: #000;
+  background-image: url(images/nebula.jpg);
+  justify-content: space-between;
 }
 main {
 position: fixed;
-  width:100%;
-  background:yellow;
+  width: 10%;
+  margin-right: 20px;
+  background: green;
   height: 140px;
   bottom: 100px;
 }
